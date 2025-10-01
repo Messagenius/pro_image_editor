@@ -45,10 +45,17 @@ class PaintEditorAppBar extends StatelessWidget implements PreferredSizeWidget {
     required this.onOpenLineWeightBottomSheet,
     required this.isFillMode,
     required this.designMode,
+    required this.configs,
   });
 
   /// Configuration settings for the paint editor's appearance.
   final PaintEditorConfigs paintEditorConfigs;
+
+  /// Configuration settings for the editor.
+  final ProImageEditorConfigs configs;
+
+  /// Retrieves the main editor's specific configurations.
+  MainEditorConfigs get mainEditorConfigs => configs.mainEditor;
 
   /// Localization strings for tooltips and labels.
   final I18nPaintEditor i18n;
@@ -98,6 +105,7 @@ class PaintEditorAppBar extends StatelessWidget implements PreferredSizeWidget {
       automaticallyImplyLeading: false,
       backgroundColor: paintEditorConfigs.style.appBarBackground,
       foregroundColor: paintEditorConfigs.style.appBarColor,
+      systemOverlayStyle: mainEditorConfigs.style.uiOverlayStyle,
       actions: _buildAction(constraints),
     );
   }

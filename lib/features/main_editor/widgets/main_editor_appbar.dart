@@ -65,6 +65,7 @@ class MainEditorAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       foregroundColor: foregroundColor,
       backgroundColor: mainEditorConfigs.style.appBarBackground,
+      systemOverlayStyle: configs.mainEditor.style.uiOverlayStyle,
       leading: mainEditorConfigs.enableCloseButton
           ? IconButton(
               tooltip: i18n.cancel,

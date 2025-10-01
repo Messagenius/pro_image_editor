@@ -30,6 +30,9 @@ class GroundedBlurBar extends StatefulWidget with SimpleConfigsAccess {
   @override
   final ProImageEditorCallbacks callbacks;
 
+  /// Retrieves the main editor's specific configurations.
+  MainEditorConfigs get mainEditorConfigs => configs.mainEditor;
+
   @override
   State<GroundedBlurBar> createState() => _GroundedBlurBarState();
 }

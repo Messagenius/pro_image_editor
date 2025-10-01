@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../core/models/editor_configs/pro_image_editor_configs.dart';
 import '/core/enums/design_mode.dart';
 import '/core/models/editor_configs/text_editor_configs.dart';
 import '/core/models/i18n/i18n_text_editor.dart';
@@ -34,7 +35,14 @@ class TextEditorAppBar extends StatelessWidget implements PreferredSizeWidget {
     required this.onToggleBackgroundMode,
     required this.designMode,
     required this.constraints,
+    required this.configs,
   });
+
+  /// Configuration settings for the editor.
+  final ProImageEditorConfigs configs;
+
+  /// Retrieves the main editor's specific configurations.
+  MainEditorConfigs get mainEditorConfigs => configs.mainEditor;
 
   /// Configuration settings for the text editor's appearance.
   final TextEditorConfigs textEditorConfigs;
@@ -78,6 +86,7 @@ class TextEditorAppBar extends StatelessWidget implements PreferredSizeWidget {
       automaticallyImplyLeading: false,
       backgroundColor: textEditorConfigs.style.appBarBackground,
       foregroundColor: textEditorConfigs.style.appBarColor,
+      systemOverlayStyle: mainEditorConfigs.style.uiOverlayStyle,
       actions: [
         IconButton(
           tooltip: i18n.back,

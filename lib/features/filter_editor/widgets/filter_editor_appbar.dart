@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../core/models/editor_configs/pro_image_editor_configs.dart';
 import '/core/models/editor_configs/filter_editor_configs.dart';
 import '/core/models/i18n/i18n_filter_editor.dart';
 
@@ -18,10 +19,17 @@ class FilterEditorAppBar extends StatelessWidget
     required this.i18n,
     required this.close,
     required this.done,
+    required this.configs,
   });
 
   /// Configurations for styling and behavior.
   final FilterEditorConfigs filterEditorConfigs;
+
+  /// Configuration settings for the editor.
+  final ProImageEditorConfigs configs;
+
+  /// Retrieves the main editor's specific configurations.
+  MainEditorConfigs get mainEditorConfigs => configs.mainEditor;
 
   /// Localization for tooltips and labels.
   final I18nFilterEditor i18n;
@@ -38,6 +46,7 @@ class FilterEditorAppBar extends StatelessWidget
       automaticallyImplyLeading: false,
       backgroundColor: filterEditorConfigs.style.appBarBackground,
       foregroundColor: filterEditorConfigs.style.appBarColor,
+      systemOverlayStyle: mainEditorConfigs.style.uiOverlayStyle,
       actions: [
         IconButton(
           tooltip: i18n.back,

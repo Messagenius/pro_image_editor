@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../core/models/editor_configs/pro_image_editor_configs.dart';
 import '/core/models/editor_configs/blur_editor_configs.dart';
 import '/core/models/i18n/i18n_blur_editor.dart';
 
@@ -23,10 +24,17 @@ class BlurEditorAppBar extends StatelessWidget implements PreferredSizeWidget {
     required this.i18n,
     required this.close,
     required this.done,
+    required this.configs,
   });
 
   /// Configuration settings for the blur editor.
   final BlurEditorConfigs blurEditorConfigs;
+
+  /// Configuration settings for the editor.
+  final ProImageEditorConfigs configs;
+
+  /// Retrieves the main editor's specific configurations.
+  MainEditorConfigs get mainEditorConfigs => configs.mainEditor;
 
   /// Internationalization support for the blur editor.
   final I18nBlurEditor i18n;
@@ -43,6 +51,7 @@ class BlurEditorAppBar extends StatelessWidget implements PreferredSizeWidget {
       automaticallyImplyLeading: false,
       backgroundColor: blurEditorConfigs.style.appBarBackgroundColor,
       foregroundColor: blurEditorConfigs.style.appBarForegroundColor,
+      systemOverlayStyle: mainEditorConfigs.style.uiOverlayStyle,
       actions: [
         IconButton(
           tooltip: i18n.back,

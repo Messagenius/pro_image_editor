@@ -361,6 +361,7 @@ class TextEditorState extends State<TextEditor>
     return TextEditorAppBar(
       textEditorConfigs: textEditorConfigs,
       i18n: i18n.textEditor,
+      configs: configs,
       onClose: close,
       onDone: done,
       align: align,

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/models/editor_configs/crop_rotate_editor_configs.dart';
+import '../../../core/models/editor_configs/pro_image_editor_configs.dart';
 import '../../../core/models/i18n/i18n_crop_rotate_editor.dart';
 
 /// A custom app bar widget for the crop editor screen.
@@ -39,10 +40,17 @@ class CropEditorAppbar extends StatelessWidget implements PreferredSizeWidget {
     required this.onClose,
     required this.onUndo,
     required this.onRedo,
+    required this.proConfigs,
   });
 
   /// Configuration settings for the crop and rotate editor.
   final CropRotateEditorConfigs configs;
+
+  /// Configuration settings for the editor.
+  final ProImageEditorConfigs proConfigs;
+
+  /// Retrieves the main editor's specific configurations.
+  MainEditorConfigs get mainEditorConfigs => proConfigs.mainEditor;
 
   /// Internationalization settings for the crop and rotate editor.
   final I18nCropRotateEditor i18n;
@@ -74,6 +82,7 @@ class CropEditorAppbar extends StatelessWidget implements PreferredSizeWidget {
       automaticallyImplyLeading: false,
       backgroundColor: configs.style.appBarBackground,
       foregroundColor: configs.style.appBarColor,
+      systemOverlayStyle: mainEditorConfigs.style.uiOverlayStyle,
       actions: [
         if (enableCloseButton)
           IconButton(

@@ -19,10 +19,17 @@ class WhatsAppCropRotateToolbar extends StatefulWidget {
     required this.onDone,
     required this.onReset,
     required this.openAspectRatios,
+    required this.proConfigs,
   });
 
   /// The configuration for the image editor.
   final ProImageEditorConfigs configs;
+
+  /// Configuration settings for the editor.
+  final ProImageEditorConfigs proConfigs;
+
+  /// Retrieves the main editor's specific configurations.
+  MainEditorConfigs get mainEditorConfigs => proConfigs.mainEditor;
 
   /// Callback function for canceling the crop/rotate operation.
   final Function() onCancel;

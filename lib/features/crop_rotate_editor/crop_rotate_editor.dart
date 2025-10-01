@@ -2165,6 +2165,7 @@ class CropRotateEditorState extends State<CropRotateEditor>
     _hasToolbar = true;
     return CropEditorAppbar(
       configs: configs.cropRotateEditor,
+      proConfigs: configs,
       i18n: i18n.cropRotateEditor,
       enableCloseButton: initConfigs.enableCloseButton,
       canUndo: canUndo,

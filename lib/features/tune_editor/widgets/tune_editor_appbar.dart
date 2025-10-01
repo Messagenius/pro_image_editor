@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../core/models/editor_configs/pro_image_editor_configs.dart';
 import '/core/models/editor_configs/tune_editor_configs.dart';
 import '/core/models/i18n/i18n_tune_editor.dart';
 
@@ -28,10 +29,17 @@ class TuneEditorAppbar extends StatelessWidget implements PreferredSizeWidget {
     required this.onUndo,
     required this.onClose,
     required this.onDone,
+    required this.configs,
   });
 
   /// Configuration settings for the tune editor's appearance.
   final TuneEditorConfigs tuneEditorConfigs;
+
+  /// Configuration settings for the editor.
+  final ProImageEditorConfigs configs;
+
+  /// Retrieves the main editor's specific configurations.
+  MainEditorConfigs get mainEditorConfigs => configs.mainEditor;
 
   /// Localization strings for tooltips and labels.
   final I18nTuneEditor i18n;
@@ -60,6 +68,7 @@ class TuneEditorAppbar extends StatelessWidget implements PreferredSizeWidget {
       automaticallyImplyLeading: false,
       backgroundColor: tuneEditorConfigs.style.appBarBackground,
       foregroundColor: tuneEditorConfigs.style.appBarColor,
+      systemOverlayStyle: mainEditorConfigs.style.uiOverlayStyle,
       actions: [
         IconButton(
           tooltip: i18n.back,

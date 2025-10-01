@@ -190,6 +190,7 @@ class _WhatsAppExampleState extends State<WhatsAppExample>
       bottomBar: (cropRotateEditor, rebuildStream) => ReactiveWidget(
         stream: rebuildStream,
         builder: (_) => WhatsAppCropRotateToolbar(
+          proConfigs: cropRotateEditor.configs,
           bottomBarColor: const Color(0xFF303030),
           configs: cropRotateEditor.configs,
           onCancel: cropRotateEditor.close,

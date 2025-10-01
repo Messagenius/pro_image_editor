@@ -807,6 +807,7 @@ class PaintEditorState extends State<PaintEditor>
       stream: _uiAppbarStream.stream,
       builder: (context) => PaintEditorAppBar(
         paintEditorConfigs: paintEditorConfigs,
+        configs: configs,
         i18n: i18n.paintEditor,
         constraints: constraints,
         onUndo: undoAction,

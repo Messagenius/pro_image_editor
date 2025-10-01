@@ -410,6 +410,7 @@ class TuneEditorState extends State<TuneEditor>
     }
     return TuneEditorAppbar(
       tuneEditorConfigs: tuneEditorConfigs,
+      configs: configs,
       i18n: i18n.tuneEditor,
       canRedo: canRedo,
       canUndo: canUndo,

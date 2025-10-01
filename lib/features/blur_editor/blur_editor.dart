@@ -269,6 +269,7 @@ class BlurEditorState extends State<BlurEditor>
 
     return BlurEditorAppBar(
       blurEditorConfigs: blurEditorConfigs,
+      configs: configs,
       i18n: i18n.blurEditor,
       close: close,
       done: done,

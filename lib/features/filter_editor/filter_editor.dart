@@ -293,6 +293,7 @@ class FilterEditorState extends State<FilterEditor>
     }
     return FilterEditorAppBar(
       filterEditorConfigs: filterEditorConfigs,
+        configs: configs,
       i18n: i18n.filterEditor,
       close: close,
       done: done,
