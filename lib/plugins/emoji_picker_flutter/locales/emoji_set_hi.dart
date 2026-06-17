@@ -5219,1035 +5219,1035 @@ const List<CategoryEmoji> emojiSetHindi = [
     ),
     Emoji(
       '🇦🇨',
-      'Flag: Ascension Island',
+      'Flag: Ascension Island | Ascension Island',
     ),
     Emoji(
       '🇦🇩',
-      'Flag: Andorra',
+      'Flag: Andorra | Andorra',
     ),
     Emoji(
       '🇦🇪',
-      'Flag: United Arab Emirates',
+      'Flag: United Arab Emirates | United Arab Emirates',
     ),
     Emoji(
       '🇦🇫',
-      'Flag: Afghanistan',
+      'Flag: Afghanistan | Afghanistan',
     ),
     Emoji(
       '🇦🇬',
-      'Flag: Antigua & Barbuda',
+      'Flag: Antigua & Barbuda | Antigua & Barbuda',
     ),
     Emoji(
       '🇦🇮',
-      'Flag: Anguilla',
+      'Flag: Anguilla | Anguilla',
     ),
     Emoji(
       '🇦🇱',
-      'Flag: Albania',
+      'Flag: Albania | Albania',
     ),
     Emoji(
       '🇦🇲',
-      'Flag: Armenia',
+      'Flag: Armenia | Armenia',
     ),
     Emoji(
       '🇦🇴',
-      'Flag: Angola',
+      'Flag: Angola | Angola',
     ),
     Emoji(
       '🇦🇶',
-      'Flag: Antarctica',
+      'Flag: Antarctica | Antarctica',
     ),
     Emoji(
       '🇦🇷',
-      'Flag: Argentina',
+      'Flag: Argentina | Argentina',
     ),
     Emoji(
       '🇦🇸',
-      'Flag: American Samoa',
+      'Flag: American Samoa | American Samoa',
     ),
     Emoji(
       '🇦🇹',
-      'Flag: Austria',
+      'Flag: Austria | Austria',
     ),
     Emoji(
       '🇦🇺',
-      'Flag: Australia',
+      'Flag: Australia | Australia',
     ),
     Emoji(
       '🇦🇼',
-      'Flag: Aruba',
+      'Flag: Aruba | Aruba',
     ),
     Emoji(
       '🇦🇽',
-      'Flag: Åland Islands',
+      'Flag: Åland Islands | Åland Islands',
     ),
     Emoji(
       '🇦🇿',
-      'Flag: Azerbaijan',
+      'Flag: Azerbaijan | Azerbaijan',
     ),
     Emoji(
       '🇧🇦',
-      'Flag: Bosnia & Herzegovina',
+      'Flag: Bosnia & Herzegovina | Bosnia & Herzegovina',
     ),
     Emoji(
       '🇧🇧',
-      'Flag: Barbados',
+      'Flag: Barbados | Barbados',
     ),
     Emoji(
       '🇧🇩',
-      'Flag: Bangladesh',
+      'Flag: Bangladesh | Bangladesh',
     ),
     Emoji(
       '🇧🇪',
-      'Flag: Belgium',
+      'Flag: Belgium | Belgium',
     ),
     Emoji(
       '🇧🇫',
-      'Flag: Burkina Faso',
+      'Flag: Burkina Faso | Burkina Faso',
     ),
     Emoji(
       '🇧🇬',
-      'Flag: Bulgaria',
+      'Flag: Bulgaria | Bulgaria',
     ),
     Emoji(
       '🇧🇭',
-      'Flag: Bahrain',
+      'Flag: Bahrain | Bahrain',
     ),
     Emoji(
       '🇧🇮',
-      'Flag: Burundi',
+      'Flag: Burundi | Burundi',
     ),
     Emoji(
       '🇧🇯',
-      'Flag: Benin',
+      'Flag: Benin | Benin',
     ),
     Emoji(
       '🇧🇱',
-      'Flag: St. Barthélemy',
+      'Flag: St. Barthélemy | St. Barthélemy',
     ),
     Emoji(
       '🇧🇲',
-      'Flag: Bermuda',
+      'Flag: Bermuda | Bermuda',
     ),
     Emoji(
       '🇧🇳',
-      'Flag: Brunei',
+      'Flag: Brunei | Brunei',
     ),
     Emoji(
       '🇧🇴',
-      'Flag: Bolivia',
+      'Flag: Bolivia | Bolivia',
     ),
     Emoji(
       '🇧🇶',
-      'Flag: Caribbean Netherlands',
+      'Flag: Caribbean Netherlands | Caribbean Netherlands',
     ),
     Emoji(
       '🇧🇷',
-      'Flag: Brazil',
+      'Flag: Brazil | Brazil',
     ),
     Emoji(
       '🇧🇸',
-      'Flag: Bahamas',
+      'Flag: Bahamas | Bahamas',
     ),
     Emoji(
       '🇧🇹',
-      'Flag: Bhutan',
+      'Flag: Bhutan | Bhutan',
     ),
     Emoji(
       '🇧🇻',
-      'Flag: Bouvet Island',
+      'Flag: Bouvet Island | Bouvet Island',
     ),
     Emoji(
       '🇧🇼',
-      'Flag: Botswana',
+      'Flag: Botswana | Botswana',
     ),
     Emoji(
       '🇧🇾',
-      'Flag: Belarus',
+      'Flag: Belarus | Belarus',
     ),
     Emoji(
       '🇧🇿',
-      'Flag: Belize',
+      'Flag: Belize | Belize',
     ),
     Emoji(
       '🇨🇦',
-      'Flag: Canada',
+      'Flag: Canada | Canada',
     ),
     Emoji(
       '🇨🇨',
-      'Flag: Cocos (Keeling) Islands',
+      'Flag: Cocos (Keeling) Islands | Cocos (Keeling) Islands',
     ),
     Emoji(
       '🇨🇩',
-      'Flag: Congo - Kinshasa',
+      'Flag: Congo - Kinshasa | Congo - Kinshasa',
     ),
     Emoji(
       '🇨🇫',
-      'Flag: Central African Republic',
+      'Flag: Central African Republic | Central African Republic',
     ),
     Emoji(
       '🇨🇬',
-      'Flag: Congo - Brazzaville',
+      'Flag: Congo - Brazzaville | Congo - Brazzaville',
     ),
     Emoji(
       '🇨🇭',
-      'Flag: Switzerland',
+      'Flag: Switzerland | Switzerland',
     ),
     Emoji(
       '🇨🇮',
-      'Flag: Côte d’Ivoire',
+      'Flag: Côte d’Ivoire | Côte d’Ivoire',
     ),
     Emoji(
       '🇨🇰',
-      'Flag: Cook Islands',
+      'Flag: Cook Islands | Cook Islands',
     ),
     Emoji(
       '🇨🇱',
-      'Flag: Chile',
+      'Flag: Chile | Chile',
     ),
     Emoji(
       '🇨🇲',
-      'Flag: Cameroon',
+      'Flag: Cameroon | Cameroon',
     ),
     Emoji(
       '🇨🇳',
-      'Flag: China',
+      'Flag: China | China',
     ),
     Emoji(
       '🇨🇴',
-      'Flag: Colombia',
+      'Flag: Colombia | Colombia',
     ),
     Emoji(
       '🇨🇵',
-      'Flag: Clipperton Island',
+      'Flag: Clipperton Island | Clipperton Island',
     ),
     Emoji(
       '🇨🇷',
-      'Flag: Costa Rica',
+      'Flag: Costa Rica | Costa Rica',
     ),
     Emoji(
       '🇨🇺',
-      'Flag: Cuba',
+      'Flag: Cuba | Cuba',
     ),
     Emoji(
       '🇨🇻',
-      'Flag: Cape Verde',
+      'Flag: Cape Verde | Cape Verde',
     ),
     Emoji(
       '🇨🇼',
-      'Flag: Curaçao',
+      'Flag: Curaçao | Curaçao',
     ),
     Emoji(
       '🇨🇽',
-      'Flag: Christmas Island',
+      'Flag: Christmas Island | Christmas Island',
     ),
     Emoji(
       '🇨🇾',
-      'Flag: Cyprus',
+      'Flag: Cyprus | Cyprus',
     ),
     Emoji(
       '🇨🇿',
-      'Flag: Czechia',
+      'Flag: Czechia | Czechia',
     ),
     Emoji(
       '🇩🇪',
-      'Flag: Germany',
+      'Flag: Germany | Germany',
     ),
     Emoji(
       '🇩🇬',
-      'Flag: Diego Garcia',
+      'Flag: Diego Garcia | Diego Garcia',
     ),
     Emoji(
       '🇩🇯',
-      'Flag: Djibouti',
+      'Flag: Djibouti | Djibouti',
     ),
     Emoji(
       '🇩🇰',
-      'Flag: Denmark',
+      'Flag: Denmark | Denmark',
     ),
     Emoji(
       '🇩🇲',
-      'Flag: Dominica',
+      'Flag: Dominica | Dominica',
     ),
     Emoji(
       '🇩🇴',
-      'Flag: Dominican Republic',
+      'Flag: Dominican Republic | Dominican Republic',
     ),
     Emoji(
       '🇩🇿',
-      'Flag: Algeria',
+      'Flag: Algeria | Algeria',
     ),
     Emoji(
       '🇪🇦',
-      'Flag: Ceuta & Melilla',
+      'Flag: Ceuta & Melilla | Ceuta & Melilla',
     ),
     Emoji(
       '🇪🇨',
-      'Flag: Ecuador',
+      'Flag: Ecuador | Ecuador',
     ),
     Emoji(
       '🇪🇪',
-      'Flag: Estonia',
+      'Flag: Estonia | Estonia',
     ),
     Emoji(
       '🇪🇬',
-      'Flag: Egypt',
+      'Flag: Egypt | Egypt',
     ),
     Emoji(
       '🇪🇭',
-      'Flag: Western Sahara',
+      'Flag: Western Sahara | Western Sahara',
     ),
     Emoji(
       '🇪🇷',
-      'Flag: Eritrea',
+      'Flag: Eritrea | Eritrea',
     ),
     Emoji(
       '🇪🇸',
-      'Flag: Spain',
+      'Flag: Spain | Spain',
     ),
     Emoji(
       '🇪🇹',
-      'Flag: Ethiopia',
+      'Flag: Ethiopia | Ethiopia',
     ),
     Emoji(
       '🇪🇺',
-      'Flag: European Union',
+      'Flag: European Union | European Union',
     ),
     Emoji(
       '🇫🇮',
-      'Flag: Finland',
+      'Flag: Finland | Finland',
     ),
     Emoji(
       '🇫🇯',
-      'Flag: Fiji',
+      'Flag: Fiji | Fiji',
     ),
     Emoji(
       '🇫🇰',
-      'Flag: Falkland Islands',
+      'Flag: Falkland Islands | Falkland Islands',
     ),
     Emoji(
       '🇫🇲',
-      'Flag: Micronesia',
+      'Flag: Micronesia | Micronesia',
     ),
     Emoji(
       '🇫🇴',
-      'Flag: Faroe Islands',
+      'Flag: Faroe Islands | Faroe Islands',
     ),
     Emoji(
       '🇫🇷',
-      'Flag: France',
+      'Flag: France | France',
     ),
     Emoji(
       '🇬🇦',
-      'Flag: Gabon',
+      'Flag: Gabon | Gabon',
     ),
     Emoji(
       '🇬🇧',
-      'Flag: United Kingdom',
+      'Flag: United Kingdom | United Kingdom',
     ),
     Emoji(
       '🇬🇩',
-      'Flag: Grenada',
+      'Flag: Grenada | Grenada',
     ),
     Emoji(
       '🇬🇪',
-      'Flag: Georgia',
+      'Flag: Georgia | Georgia',
     ),
     Emoji(
       '🇬🇫',
-      'Flag: French Guiana',
+      'Flag: French Guiana | French Guiana',
     ),
     Emoji(
       '🇬🇬',
-      'Flag: Guernsey',
+      'Flag: Guernsey | Guernsey',
     ),
     Emoji(
       '🇬🇭',
-      'Flag: Ghana',
+      'Flag: Ghana | Ghana',
     ),
     Emoji(
       '🇬🇮',
-      'Flag: Gibraltar',
+      'Flag: Gibraltar | Gibraltar',
     ),
     Emoji(
       '🇬🇱',
-      'Flag: Greenland',
+      'Flag: Greenland | Greenland',
     ),
     Emoji(
       '🇬🇲',
-      'Flag: Gambia',
+      'Flag: Gambia | Gambia',
     ),
     Emoji(
       '🇬🇳',
-      'Flag: Guinea',
+      'Flag: Guinea | Guinea',
     ),
     Emoji(
       '🇬🇵',
-      'Flag: Guadeloupe',
+      'Flag: Guadeloupe | Guadeloupe',
     ),
     Emoji(
       '🇬🇶',
-      'Flag: Equatorial Guinea',
+      'Flag: Equatorial Guinea | Equatorial Guinea',
     ),
     Emoji(
       '🇬🇷',
-      'Flag: Greece',
+      'Flag: Greece | Greece',
     ),
     Emoji(
       '🇬🇸',
-      'Flag: South Georgia & South Sandwich Islands',
+      'Flag: South Georgia & South Sandwich Islands | South Georgia & South Sandwich Islands',
     ),
     Emoji(
       '🇬🇹',
-      'Flag: Guatemala',
+      'Flag: Guatemala | Guatemala',
     ),
     Emoji(
       '🇬🇺',
-      'Flag: Guam',
+      'Flag: Guam | Guam',
     ),
     Emoji(
       '🇬🇼',
-      'Flag: Guinea-Bissau',
+      'Flag: Guinea-Bissau | Guinea-Bissau',
     ),
     Emoji(
       '🇬🇾',
-      'Flag: Guyana',
+      'Flag: Guyana | Guyana',
     ),
     Emoji(
       '🇭🇰',
-      'Flag: Hong Kong SAR China',
+      'Flag: Hong Kong SAR China | Hong Kong SAR China',
     ),
     Emoji(
       '🇭🇲',
-      'Flag: Heard & McDonald Islands',
+      'Flag: Heard & McDonald Islands | Heard & McDonald Islands',
     ),
     Emoji(
       '🇭🇳',
-      'Flag: Honduras',
+      'Flag: Honduras | Honduras',
     ),
     Emoji(
       '🇭🇷',
-      'Flag: Croatia',
+      'Flag: Croatia | Croatia',
     ),
     Emoji(
       '🇭🇹',
-      'Flag: Haiti',
+      'Flag: Haiti | Haiti',
     ),
     Emoji(
       '🇭🇺',
-      'Flag: Hungary',
+      'Flag: Hungary | Hungary',
     ),
     Emoji(
       '🇮🇨',
-      'Flag: Canary Islands',
+      'Flag: Canary Islands | Canary Islands',
     ),
     Emoji(
       '🇮🇩',
-      'Flag: Indonesia',
+      'Flag: Indonesia | Indonesia',
     ),
     Emoji(
       '🇮🇪',
-      'Flag: Ireland',
+      'Flag: Ireland | Ireland',
     ),
     Emoji(
       '🇮🇱',
-      'Flag: Israel',
+      'Flag: Israel | Israel',
     ),
     Emoji(
       '🇮🇲',
-      'Flag: Isle of Man',
+      'Flag: Isle of Man | Isle of Man',
     ),
     Emoji(
       '🇮🇳',
-      'Flag: India',
+      'Flag: India | India',
     ),
     Emoji(
       '🇮🇴',
-      'Flag: British Indian Ocean Territory',
+      'Flag: British Indian Ocean Territory | British Indian Ocean Territory',
     ),
     Emoji(
       '🇮🇶',
-      'Flag: Iraq',
+      'Flag: Iraq | Iraq',
     ),
     Emoji(
       '🇮🇷',
-      'Flag: Iran',
+      'Flag: Iran | Iran',
     ),
     Emoji(
       '🇮🇸',
-      'Flag: Iceland',
+      'Flag: Iceland | Iceland',
     ),
     Emoji(
       '🇮🇹',
-      'Flag: Italy',
+      'Flag: Italy | Italy',
     ),
     Emoji(
       '🇯🇪',
-      'Flag: Jersey',
+      'Flag: Jersey | Jersey',
     ),
     Emoji(
       '🇯🇲',
-      'Flag: Jamaica',
+      'Flag: Jamaica | Jamaica',
     ),
     Emoji(
       '🇯🇴',
-      'Flag: Jordan',
+      'Flag: Jordan | Jordan',
     ),
     Emoji(
       '🇯🇵',
-      'Flag: Japan',
+      'Flag: Japan | Japan',
     ),
     Emoji(
       '🇰🇪',
-      'Flag: Kenya',
+      'Flag: Kenya | Kenya',
     ),
     Emoji(
       '🇰🇬',
-      'Flag: Kyrgyzstan',
+      'Flag: Kyrgyzstan | Kyrgyzstan',
     ),
     Emoji(
       '🇰🇭',
-      'Flag: Cambodia',
+      'Flag: Cambodia | Cambodia',
     ),
     Emoji(
       '🇰🇮',
-      'Flag: Kiribati',
+      'Flag: Kiribati | Kiribati',
     ),
     Emoji(
       '🇰🇲',
-      'Flag: Comoros',
+      'Flag: Comoros | Comoros',
     ),
     Emoji(
       '🇰🇳',
-      'Flag: St. Kitts & Nevis',
+      'Flag: St. Kitts & Nevis | St. Kitts & Nevis',
     ),
     Emoji(
       '🇰🇵',
-      'Flag: North Korea',
+      'Flag: North Korea | North Korea',
     ),
     Emoji(
       '🇰🇷',
-      'Flag: South Korea',
+      'Flag: South Korea | South Korea',
     ),
     Emoji(
       '🇰🇼',
-      'Flag: Kuwait',
+      'Flag: Kuwait | Kuwait',
     ),
     Emoji(
       '🇰🇾',
-      'Flag: Cayman Islands',
+      'Flag: Cayman Islands | Cayman Islands',
     ),
     Emoji(
       '🇰🇿',
-      'Flag: Kazakhstan',
+      'Flag: Kazakhstan | Kazakhstan',
     ),
     Emoji(
       '🇱🇦',
-      'Flag: Laos',
+      'Flag: Laos | Laos',
     ),
     Emoji(
       '🇱🇧',
-      'Flag: Lebanon',
+      'Flag: Lebanon | Lebanon',
     ),
     Emoji(
       '🇱🇨',
-      'Flag: St. Lucia',
+      'Flag: St. Lucia | St. Lucia',
     ),
     Emoji(
       '🇱🇮',
-      'Flag: Liechtenstein',
+      'Flag: Liechtenstein | Liechtenstein',
     ),
     Emoji(
       '🇱🇰',
-      'Flag: Sri Lanka',
+      'Flag: Sri Lanka | Sri Lanka',
     ),
     Emoji(
       '🇱🇷',
-      'Flag: Liberia',
+      'Flag: Liberia | Liberia',
     ),
     Emoji(
       '🇱🇸',
-      'Flag: Lesotho',
+      'Flag: Lesotho | Lesotho',
     ),
     Emoji(
       '🇱🇹',
-      'Flag: Lithuania',
+      'Flag: Lithuania | Lithuania',
     ),
     Emoji(
       '🇱🇺',
-      'Flag: Luxembourg',
+      'Flag: Luxembourg | Luxembourg',
     ),
     Emoji(
       '🇱🇻',
-      'Flag: Latvia',
+      'Flag: Latvia | Latvia',
     ),
     Emoji(
       '🇱🇾',
-      'Flag: Libya',
+      'Flag: Libya | Libya',
     ),
     Emoji(
       '🇲🇦',
-      'Flag: Morocco',
+      'Flag: Morocco | Morocco',
     ),
     Emoji(
       '🇲🇨',
-      'Flag: Monaco',
+      'Flag: Monaco | Monaco',
     ),
     Emoji(
       '🇲🇩',
-      'Flag: Moldova',
+      'Flag: Moldova | Moldova',
     ),
     Emoji(
       '🇲🇪',
-      'Flag: Montenegro',
+      'Flag: Montenegro | Montenegro',
     ),
     Emoji(
       '🇲🇫',
-      'Flag: St. Martin',
+      'Flag: St. Martin | St. Martin',
     ),
     Emoji(
       '🇲🇬',
-      'Flag: Madagascar',
+      'Flag: Madagascar | Madagascar',
     ),
     Emoji(
       '🇲🇭',
-      'Flag: Marshall Islands',
+      'Flag: Marshall Islands | Marshall Islands',
     ),
     Emoji(
       '🇲🇰',
-      'Flag: North Macedonia',
+      'Flag: North Macedonia | North Macedonia',
     ),
     Emoji(
       '🇲🇱',
-      'Flag: Mali',
+      'Flag: Mali | Mali',
     ),
     Emoji(
       '🇲🇲',
-      'Flag: Myanmar (Burma)',
+      'Flag: Myanmar (Burma) | Myanmar (Burma)',
     ),
     Emoji(
       '🇲🇳',
-      'Flag: Mongolia',
+      'Flag: Mongolia | Mongolia',
     ),
     Emoji(
       '🇲🇴',
-      'Flag: Macau Sar China',
+      'Flag: Macau Sar China | Macau Sar China',
     ),
     Emoji(
       '🇲🇵',
-      'Flag: Northern Mariana Islands',
+      'Flag: Northern Mariana Islands | Northern Mariana Islands',
     ),
     Emoji(
       '🇲🇶',
-      'Flag: Martinique',
+      'Flag: Martinique | Martinique',
     ),
     Emoji(
       '🇲🇷',
-      'Flag: Mauritania',
+      'Flag: Mauritania | Mauritania',
     ),
     Emoji(
       '🇲🇸',
-      'Flag: Montserrat',
+      'Flag: Montserrat | Montserrat',
     ),
     Emoji(
       '🇲🇹',
-      'Flag: Malta',
+      'Flag: Malta | Malta',
     ),
     Emoji(
       '🇲🇺',
-      'Flag: Mauritius',
+      'Flag: Mauritius | Mauritius',
     ),
     Emoji(
       '🇲🇻',
-      'Flag: Maldives',
+      'Flag: Maldives | Maldives',
     ),
     Emoji(
       '🇲🇼',
-      'Flag: Malawi',
+      'Flag: Malawi | Malawi',
     ),
     Emoji(
       '🇲🇽',
-      'Flag: Mexico',
+      'Flag: Mexico | Mexico',
     ),
     Emoji(
       '🇲🇾',
-      'Flag: Malaysia',
+      'Flag: Malaysia | Malaysia',
     ),
     Emoji(
       '🇲🇿',
-      'Flag: Mozambique',
+      'Flag: Mozambique | Mozambique',
     ),
     Emoji(
       '🇳🇦',
-      'Flag: Namibia',
+      'Flag: Namibia | Namibia',
     ),
     Emoji(
       '🇳🇨',
-      'Flag: New Caledonia',
+      'Flag: New Caledonia | New Caledonia',
     ),
     Emoji(
       '🇳🇪',
-      'Flag: Niger',
+      'Flag: Niger | Niger',
     ),
     Emoji(
       '🇳🇫',
-      'Flag: Norfolk Island',
+      'Flag: Norfolk Island | Norfolk Island',
     ),
     Emoji(
       '🇳🇬',
-      'Flag: Nigeria',
+      'Flag: Nigeria | Nigeria',
     ),
     Emoji(
       '🇳🇮',
-      'Flag: Nicaragua',
+      'Flag: Nicaragua | Nicaragua',
     ),
     Emoji(
       '🇳🇱',
-      'Flag: Netherlands',
+      'Flag: Netherlands | Netherlands',
     ),
     Emoji(
       '🇳🇴',
-      'Flag: Norway',
+      'Flag: Norway | Norway',
     ),
     Emoji(
       '🇳🇵',
-      'Flag: Nepal',
+      'Flag: Nepal | Nepal',
     ),
     Emoji(
       '🇳🇷',
-      'Flag: Nauru',
+      'Flag: Nauru | Nauru',
     ),
     Emoji(
       '🇳🇺',
-      'Flag: Niue',
+      'Flag: Niue | Niue',
     ),
     Emoji(
       '🇳🇿',
-      'Flag: New Zealand',
+      'Flag: New Zealand | New Zealand',
     ),
     Emoji(
       '🇴🇲',
-      'Flag: Oman',
+      'Flag: Oman | Oman',
     ),
     Emoji(
       '🇵🇦',
-      'Flag: Panama',
+      'Flag: Panama | Panama',
     ),
     Emoji(
       '🇵🇪',
-      'Flag: Peru',
+      'Flag: Peru | Peru',
     ),
     Emoji(
       '🇵🇫',
-      'Flag: French Polynesia',
+      'Flag: French Polynesia | French Polynesia',
     ),
     Emoji(
       '🇵🇬',
-      'Flag: Papua New Guinea',
+      'Flag: Papua New Guinea | Papua New Guinea',
     ),
     Emoji(
       '🇵🇭',
-      'Flag: Philippines',
+      'Flag: Philippines | Philippines',
     ),
     Emoji(
       '🇵🇰',
-      'Flag: Pakistan',
+      'Flag: Pakistan | Pakistan',
     ),
     Emoji(
       '🇵🇱',
-      'Flag: Poland',
+      'Flag: Poland | Poland',
     ),
     Emoji(
       '🇵🇲',
-      'Flag: St. Pierre & Miquelon',
+      'Flag: St. Pierre & Miquelon | St. Pierre & Miquelon',
     ),
     Emoji(
       '🇵🇳',
-      'Flag: Pitcairn Islands',
+      'Flag: Pitcairn Islands | Pitcairn Islands',
     ),
     Emoji(
       '🇵🇷',
-      'Flag: Puerto Rico',
+      'Flag: Puerto Rico | Puerto Rico',
     ),
     Emoji(
       '🇵🇸',
-      'Flag: Palestinian Territories',
+      'Flag: Palestinian Territories | Palestinian Territories',
     ),
     Emoji(
       '🇵🇹',
-      'Flag: Portugal',
+      'Flag: Portugal | Portugal',
     ),
     Emoji(
       '🇵🇼',
-      'Flag: Palau',
+      'Flag: Palau | Palau',
     ),
     Emoji(
       '🇵🇾',
-      'Flag: Paraguay',
+      'Flag: Paraguay | Paraguay',
     ),
     Emoji(
       '🇶🇦',
-      'Flag: Qatar',
+      'Flag: Qatar | Qatar',
     ),
     Emoji(
       '🇷🇪',
-      'Flag: Réunion',
+      'Flag: Réunion | Réunion',
     ),
     Emoji(
       '🇷🇴',
-      'Flag: Romania',
+      'Flag: Romania | Romania',
     ),
     Emoji(
       '🇷🇸',
-      'Flag: Serbia',
+      'Flag: Serbia | Serbia',
     ),
     Emoji(
       '🇷🇺',
-      'Flag: Russia',
+      'Flag: Russia | Russia',
     ),
     Emoji(
       '🇷🇼',
-      'Flag: Rwanda',
+      'Flag: Rwanda | Rwanda',
     ),
     Emoji(
       '🇸🇦',
-      'Flag: Saudi Arabia',
+      'Flag: Saudi Arabia | Saudi Arabia',
     ),
     Emoji(
       '🇸🇧',
-      'Flag: Solomon Islands',
+      'Flag: Solomon Islands | Solomon Islands',
     ),
     Emoji(
       '🇸🇨',
-      'Flag: Seychelles',
+      'Flag: Seychelles | Seychelles',
     ),
     Emoji(
       '🇸🇩',
-      'Flag: Sudan',
+      'Flag: Sudan | Sudan',
     ),
     Emoji(
       '🇸🇪',
-      'Flag: Sweden',
+      'Flag: Sweden | Sweden',
     ),
     Emoji(
       '🇸🇬',
-      'Flag: Singapore',
+      'Flag: Singapore | Singapore',
     ),
     Emoji(
       '🇸🇭',
-      'Flag: St. Helena',
+      'Flag: St. Helena | St. Helena',
     ),
     Emoji(
       '🇸🇮',
-      'Flag: Slovenia',
+      'Flag: Slovenia | Slovenia',
     ),
     Emoji(
       '🇸🇯',
-      'Flag: Svalbard & Jan Mayen',
+      'Flag: Svalbard & Jan Mayen | Svalbard & Jan Mayen',
     ),
     Emoji(
       '🇸🇰',
-      'Flag: Slovakia',
+      'Flag: Slovakia | Slovakia',
     ),
     Emoji(
       '🇸🇱',
-      'Flag: Sierra Leone',
+      'Flag: Sierra Leone | Sierra Leone',
     ),
     Emoji(
       '🇸🇲',
-      'Flag: San Marino',
+      'Flag: San Marino | San Marino',
     ),
     Emoji(
       '🇸🇳',
-      'Flag: Senegal',
+      'Flag: Senegal | Senegal',
     ),
     Emoji(
       '🇸🇴',
-      'Flag: Somalia',
+      'Flag: Somalia | Somalia',
     ),
     Emoji(
       '🇸🇷',
-      'Flag: Suriname',
+      'Flag: Suriname | Suriname',
     ),
     Emoji(
       '🇸🇸',
-      'Flag: South Sudan',
+      'Flag: South Sudan | South Sudan',
     ),
     Emoji(
       '🇸🇹',
-      'Flag: São Tomé & Príncipe',
+      'Flag: São Tomé & Príncipe | São Tomé & Príncipe',
     ),
     Emoji(
       '🇸🇻',
-      'Flag: El Salvador',
+      'Flag: El Salvador | El Salvador',
     ),
     Emoji(
       '🇸🇽',
-      'Flag: Sint Maarten',
+      'Flag: Sint Maarten | Sint Maarten',
     ),
     Emoji(
       '🇸🇾',
-      'Flag: Syria',
+      'Flag: Syria | Syria',
     ),
     Emoji(
       '🇸🇿',
-      'Flag: Swaziland',
+      'Flag: Swaziland | Swaziland',
     ),
     Emoji(
       '🇹🇦',
-      'Flag: Tristan Da Cunha',
+      'Flag: Tristan Da Cunha | Tristan Da Cunha',
     ),
     Emoji(
       '🇹🇨',
-      'Flag: Turks & Caicos Islands',
+      'Flag: Turks & Caicos Islands | Turks & Caicos Islands',
     ),
     Emoji(
       '🇹🇩',
-      'Flag: Chad',
+      'Flag: Chad | Chad',
     ),
     Emoji(
       '🇹🇫',
-      'Flag: French Southern Territories',
+      'Flag: French Southern Territories | French Southern Territories',
     ),
     Emoji(
       '🇹🇬',
-      'Flag: Togo',
+      'Flag: Togo | Togo',
     ),
     Emoji(
       '🇹🇭',
-      'Flag: Thailand',
+      'Flag: Thailand | Thailand',
     ),
     Emoji(
       '🇹🇯',
-      'Flag: Tajikistan',
+      'Flag: Tajikistan | Tajikistan',
     ),
     Emoji(
       '🇹🇰',
-      'Flag: Tokelau',
+      'Flag: Tokelau | Tokelau',
     ),
     Emoji(
       '🇹🇱',
-      'Flag: Timor-Leste',
+      'Flag: Timor-Leste | Timor-Leste',
     ),
     Emoji(
       '🇹🇲',
-      'Flag: Turkmenistan',
+      'Flag: Turkmenistan | Turkmenistan',
     ),
     Emoji(
       '🇹🇳',
-      'Flag: Tunisia',
+      'Flag: Tunisia | Tunisia',
     ),
     Emoji(
       '🇹🇴',
-      'Flag: Tonga',
+      'Flag: Tonga | Tonga',
     ),
     Emoji(
       '🇹🇷',
-      'Flag: Turkey',
+      'Flag: Turkey | Turkey',
     ),
     Emoji(
       '🇹🇹',
-      'Flag: Trinidad & Tobago',
+      'Flag: Trinidad & Tobago | Trinidad & Tobago',
     ),
     Emoji(
       '🇹🇻',
-      'Flag: Tuvalu',
+      'Flag: Tuvalu | Tuvalu',
     ),
     Emoji(
       '🇹🇼',
-      'Flag: Taiwan',
+      'Flag: Taiwan | Taiwan',
     ),
     Emoji(
       '🇹🇿',
-      'Flag: Tanzania',
+      'Flag: Tanzania | Tanzania',
     ),
     Emoji(
       '🇺🇦',
-      'Flag: Ukraine',
+      'Flag: Ukraine | Ukraine',
     ),
     Emoji(
       '🇺🇬',
-      'Flag: Uganda',
+      'Flag: Uganda | Uganda',
     ),
     Emoji(
       '🇺🇲',
-      'Flag: U.S. Outlying Islands',
+      'Flag: U.S. Outlying Islands | U.S. Outlying Islands',
     ),
     Emoji(
       '🇺🇳',
-      'Flag: United Nations',
+      'Flag: United Nations | United Nations',
     ),
     Emoji(
       '🇺🇸',
-      'Flag: United States',
+      'Flag: United States | United States',
     ),
     Emoji(
       '🇺🇾',
-      'Flag: Uruguay',
+      'Flag: Uruguay | Uruguay',
     ),
     Emoji(
       '🇺🇿',
-      'Flag: Uzbekistan',
+      'Flag: Uzbekistan | Uzbekistan',
     ),
     Emoji(
       '🇻🇦',
-      'Flag: Vatican City',
+      'Flag: Vatican City | Vatican City',
     ),
     Emoji(
       '🇻🇨',
-      'Flag: St. Vincent & Grenadines',
+      'Flag: St. Vincent & Grenadines | St. Vincent & Grenadines',
     ),
     Emoji(
       '🇻🇪',
-      'Flag: Venezuela',
+      'Flag: Venezuela | Venezuela',
     ),
     Emoji(
       '🇻🇬',
-      'Flag: British Virgin Islands',
+      'Flag: British Virgin Islands | British Virgin Islands',
     ),
     Emoji(
       '🇻🇮',
-      'Flag: U.S. Virgin Islands',
+      'Flag: U.S. Virgin Islands | U.S. Virgin Islands',
     ),
     Emoji(
       '🇻🇳',
-      'Flag: Vietnam',
+      'Flag: Vietnam | Vietnam',
     ),
     Emoji(
       '🇻🇺',
-      'Flag: Vanuatu',
+      'Flag: Vanuatu | Vanuatu',
     ),
     Emoji(
       '🇼🇫',
-      'Flag: Wallis & Futuna',
+      'Flag: Wallis & Futuna | Wallis & Futuna',
     ),
     Emoji(
       '🇼🇸',
-      'Flag: Samoa',
+      'Flag: Samoa | Samoa',
     ),
     Emoji(
       '🇽🇰',
-      'Flag: Kosovo',
+      'Flag: Kosovo | Kosovo',
     ),
     Emoji(
       '🇾🇪',
-      'Flag: Yemen',
+      'Flag: Yemen | Yemen',
     ),
     Emoji(
       '🇾🇹',
-      'Flag: Mayotte',
+      'Flag: Mayotte | Mayotte',
     ),
     Emoji(
       '🇿🇦',
-      'Flag: South Africa',
+      'Flag: South Africa | South Africa',
     ),
     Emoji(
       '🇿🇲',
-      'Flag: Zambia',
+      'Flag: Zambia | Zambia',
     ),
     Emoji(
       '🇿🇼',
-      'Flag: Zimbabwe',
+      'Flag: Zimbabwe | Zimbabwe',
     ),
   ]),
 ];
