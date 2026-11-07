@@ -191,11 +191,7 @@ mixin StandaloneEditorState<T extends StatefulWidget,
       if (initConfigs.callbacks.onCompleteWithParameters != null) {
         final isTransformed = transform?.isNotEmpty ?? false;
 
-        var decodedImage = await decodeImageFromList(imageBytes);
-        Size originalImageSize = Size(
-          decodedImage.width.toDouble(),
-          decodedImage.height.toDouble(),
-        );
+        Size originalImageSize = await readImageSize(imageBytes);
         Size? outputSize = transform?.getCropSize(originalImageSize);
         Offset? outputOffset = transform?.getCropStartOffset(originalImageSize);
 

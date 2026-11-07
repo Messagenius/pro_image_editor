@@ -590,20 +590,17 @@ class CropRotateEditorState extends State<CropRotateEditor>
     _imageSizeIsDecoded = false;
     _imageNeedDecode = false;
 
-    var decodedImage =
-        await decodeImageFromList(await editorImage!.safeByteArray(context));
+    var imageSize =
+        await readImageSize(await editorImage!.safeByteArray(context));
 
     if (!mounted) return;
-    var w = decodedImage.width;
-    var h = decodedImage.height;
-
-    var widthRatio = w.toDouble() / editorBodySize.width;
-    var heightRatio = h.toDouble() / editorBodySize.height;
+    var widthRatio = imageSize.width / editorBodySize.width;
+    var heightRatio = imageSize.height / editorBodySize.height;
     var pixelRatio = max(heightRatio, widthRatio);
-    var renderedSize = Size(w / pixelRatio, h / pixelRatio);
+    var renderedSize = imageSize / pixelRatio;
 
     imageInfos = ImageInfos(
-      rawSize: Size(w.toDouble(), h.toDouble()),
+      rawSize: imageSize,
       renderedSize: renderedSize,
       originalRenderedSize: renderedSize,
       cropRectSize: cropRect.size,
@@ -613,8 +610,8 @@ class CropRotateEditorState extends State<CropRotateEditor>
 
     calcCropRect();
     _updateAllStates();
-    // Skip a few frames to ensure image constraints are set correctly
-    Future.delayed(const Duration(milliseconds: 60), () {
+    // Wait for the layout that sets the image constraints.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       calcCropRect();
       calcFitToScreen();
       _imageSizeIsDecoded = true;
@@ -836,11 +833,7 @@ class CropRotateEditorState extends State<CropRotateEditor>
         } else {
           var rawOriginalSize =
               await widget.editorImage?.safeByteArray(context) ?? imageBytes;
-          var decodedImage = await decodeImageFromList(rawOriginalSize);
-          originalImageSize = Size(
-            decodedImage.width.toDouble(),
-            decodedImage.height.toDouble(),
-          );
+          originalImageSize = await readImageSize(rawOriginalSize);
         }
 
         Size? outputSize = transformC.getCropSize(originalImageSize);

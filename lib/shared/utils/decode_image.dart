@@ -1,3 +1,6 @@
+// Dart imports:
+import 'dart:ui' as ui;
+
 // Flutter imports:
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
@@ -5,21 +8,38 @@ import 'package:flutter/widgets.dart';
 // Project imports:
 import '/features/crop_rotate_editor/models/transform_configs.dart';
 
+/// Reads the size of an encoded image from its header, so no pixels are
+/// decoded. The web has no header read, so it decodes and frees the image.
+Future<Size> readImageSize(Uint8List bytes) async {
+  if (kIsWeb) {
+    final decodedImage = await decodeImageFromList(bytes);
+    final size = Size(
+      decodedImage.width.toDouble(),
+      decodedImage.height.toDouble(),
+    );
+    decodedImage.dispose();
+    return size;
+  }
+
+  final buffer = await ui.ImmutableBuffer.fromUint8List(bytes);
+  final descriptor = await ui.ImageDescriptor.encoded(buffer);
+  final size = Size(descriptor.width.toDouble(), descriptor.height.toDouble());
+  descriptor.dispose();
+  buffer.dispose();
+  return size;
+}
+
 /// Decode the image being edited.
 Future<ImageInfos> decodeImageInfos({
   required Uint8List bytes,
   required Size screenSize,
   TransformConfigs? configs,
 }) async {
-  var decodedImage = await decodeImageFromList(bytes);
-  Size rawSize = Size(
-    decodedImage.width.toDouble(),
-    decodedImage.height.toDouble(),
-  );
+  Size rawSize = await readImageSize(bytes);
 
   bool rotated = configs?.is90DegRotated == true;
-  int width = decodedImage.width;
-  int height = decodedImage.height;
+  int width = rawSize.width.toInt();
+  int height = rawSize.height.toInt();
 
   double calculatePixelRatio(num width, num height) {
     bool fitToHeight = screenSize.aspectRatio > (width / height);
