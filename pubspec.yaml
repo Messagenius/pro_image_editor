@@ -31,7 +31,7 @@ platforms:
   windows:
 
 environment:
-  sdk: '>=3.2.2 <4.0.0'
+  sdk: '>=3.3.0 <4.0.0'
   flutter: ">=3.35.0"
 
 dependencies:
@@ -43,7 +43,9 @@ dependencies:
   shared_preferences: ^2.5.3
   vector_math: ^2.1.4
   web: ^1.1.1
+  material_ui: ^1.11.0
 
+  cupertino_ui: any
 dev_dependencies:
   flutter_test:
     sdk: flutter

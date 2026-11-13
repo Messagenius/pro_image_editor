@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 import '/core/models/editor_configs/video_editor_configs.dart';
 import '/shared/widgets/video/toolbar/video_editor_trim_info_widget.dart';

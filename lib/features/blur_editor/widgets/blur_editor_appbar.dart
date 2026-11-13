@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
+
 import '../../../core/models/editor_configs/pro_image_editor_configs.dart';
-import '/core/models/editor_configs/blur_editor_configs.dart';
-import '/core/models/i18n/i18n_blur_editor.dart';
 
 /// A custom AppBar widget for the Blur Editor feature.
 ///

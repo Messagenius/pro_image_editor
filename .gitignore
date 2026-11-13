@@ -42,3 +42,6 @@ build/
 # Ignoring all of the Cocoapods files in the example app.
 Podfile
 Podfile.*
+
+# FVM Version Cache
+.fvm/

@@ -1,10 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
-import '../../../core/models/editor_configs/pro_image_editor_configs.dart';
-import '/core/enums/design_mode.dart';
-import '/core/models/editor_configs/text_editor_configs.dart';
-import '/core/models/i18n/i18n_text_editor.dart';
 import '/shared/widgets/platform/platform_popup_menu.dart';
+import '../../../core/models/editor_configs/pro_image_editor_configs.dart';
 
 /// A custom AppBar for the text editor, providing options for text alignment,
 /// background mode, and font scaling.

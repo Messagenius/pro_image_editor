@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 import '/core/mixins/converted_configs.dart';
 import '/core/mixins/editor_configs_mixin.dart';
@@ -155,7 +155,7 @@ class GroundedMainBarState extends State<GroundedMainBar>
                 child: SizeTransition(
                   sizeFactor: animation,
                   axis: Axis.vertical,
-                  axisAlignment: -1,
+                  alignment: Alignment.topCenter,
                   child: child,
                 ),
               );
